@@ -1,0 +1,6 @@
+#installing the library
+pip install qrcode
+
+import qrcode
+img = qrcode.make('https://www.javatpoint.com/c-sharp-tutorial')
+img.save('tutorial.jpg')
